@@ -16,7 +16,7 @@ const loginHandle = () => {
 
 const payloadLogin = {
     content: 'login',
-    styleClass: 'hvr-wobble-horizontal',
+    styleClass: '',
     clickHandler: loginHandle
 }
 

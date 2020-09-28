@@ -14,10 +14,7 @@ function FlatNavButton(props) {
 
     return (
         <button
-            className={styleClass
-                ? `${styleClass} ${styles.FlatNavButton}`
-                : `${styles.FlatNavButton}`
-            }
+            className={`${styles.FlatNavButton} ${styles.WobbleHorizontal} ${styleClass ? styleClass : ''}`}
             onClick={clickHandler ? clickHandler : ''}
         >
             {content || btnValue}

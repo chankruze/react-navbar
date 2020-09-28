@@ -46,7 +46,7 @@ Copyright (c) Geekofia 2020 and beyond
 }
 
 /* Wobble Horizontal */
-@-webkit-keyframes hvr-wobble-horizontal {
+@-webkit-keyframes wobble-horizontal {
   16.65% {
     -webkit-transform: translateX(8px);
     transform: translateX(8px);
@@ -73,7 +73,7 @@ Copyright (c) Geekofia 2020 and beyond
   }
 }
 
-@keyframes hvr-wobble-horizontal {
+@keyframes wobble-horizontal {
   16.65% {
     -webkit-transform: translateX(8px);
     transform: translateX(8px);
@@ -100,7 +100,7 @@ Copyright (c) Geekofia 2020 and beyond
   }
 }
 
-.hvr-wobble-horizontal {
+.WobbleHorizontal {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
@@ -108,11 +108,11 @@ Copyright (c) Geekofia 2020 and beyond
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 
-.hvr-wobble-horizontal:hover,
-.hvr-wobble-horizontal:focus,
-.hvr-wobble-horizontal:active {
-  -webkit-animation-name: hvr-wobble-horizontal;
-  animation-name: hvr-wobble-horizontal;
+.WobbleHorizontal:hover,
+.WobbleHorizontal:focus,
+.WobbleHorizontal:active {
+  -webkit-animation-name: wobble-horizontal;
+  animation-name: wobble-horizontal;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-timing-function: ease-in-out;
