@@ -6,31 +6,31 @@ Copyright (c) Geekofia 2020 and beyond
 */
 
 const MenuItems = [
-    {
-        title: 'Home',
-        path: '/',
-        hoverClass: ''
-    },
-    {
-        title: 'Services',
-        path: '/services',
-        hoverClass: ''
-    },
-    {
-        title: 'Pricing',
-        path: '/pricing',
-        hoverClass: ''
-    },
-    {
-        title: 'Contact',
-        path: '/contact',
-        hoverClass: ''
-    },
-    {
-        title: 'About',
-        path: '/about',
-        hoverClass: ''
-    }
-]
+  {
+    title: "Home",
+    path: "/",
+    hoverClass: "",
+  },
+  {
+    title: "Services",
+    path: "/services",
+    hoverClass: "",
+  },
+  {
+    title: "Pricing",
+    path: "/pricing",
+    hoverClass: "",
+  },
+  {
+    title: "Contact",
+    path: "/contact",
+    hoverClass: "",
+  },
+  {
+    title: "About",
+    path: "/about",
+    hoverClass: "",
+  },
+];
 
-module.exports = MenuItems
+module.exports = MenuItems;
